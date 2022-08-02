@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo8.helpController">
+   <children>
+      <Pane layoutY="-6.0" prefHeight="656.0" prefWidth="778.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image>
+                     <url>@../../../../../Downloads/312499_twitter_icon.png</url>
+                  </Image>
+               </image>
+            </ImageView>
+            <Button layoutX="276.0" layoutY="138.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="226.0" style="-fx-background-color: #E6E6FA;" text="Help">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button fx:id="signup_question" layoutX="339.0" layoutY="293.0" mnemonicParsing="false" style="-fx-background-color: #7CFC00;"  text="how to sign up?" textFill="#2b2626" />
+            <Button fx:id="login_question" layoutX="343.0" layoutY="403.0" mnemonicParsing="false" style="-fx-background-color: #FFFF00;"  text="how to log in?" />
+            <Button fx:id="forgetpasswordquestion" layoutX="297.0" layoutY="520.0" mnemonicParsing="false" style="-fx-background-color: #6A5ACD;"  text="how to use the forget password" />
+            <Button fx:id="backbutton" layoutX="34.0" layoutY="600.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="150.0" style="-fx-background-color: #FFD700;"  text="back">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

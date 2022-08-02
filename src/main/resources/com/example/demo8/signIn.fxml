@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane accessibleRole="CHECK_MENU_ITEM" prefHeight="695.0" prefWidth="885.0" style="-fx-background-color: #FFE4E1;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo8.SignIncontroller">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="20.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/104461_twitter_icon.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="14.0" layoutY="14.0" prefHeight="74.0" prefWidth="193.0" style="-fx-background-color: #00FFFF;" text="Welcome to twitter">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="491.0" layoutY="31.0" prefHeight="46.0" prefWidth="159.0" style="-fx-background-color: #FFC0CB;" text="         Sign up">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="476.0" layoutY="143.0" text="Username" />
+      <Label layoutX="478.0" layoutY="179.0" text="password" />
+      <Label layoutX="476.0" layoutY="214.0" text="ConfirmPassword" />
+      <Label layoutX="477.0" layoutY="254.0" text="Firstname" />
+      <Label layoutX="477.0" layoutY="288.0" text="Lastname" />
+      <Label layoutX="477.0" layoutY="321.0" text="security question" />
+      <Label layoutX="420.0" layoutY="356.0" text="answer of the security question" />
+      <TextField fx:id="usernamefield" layoutX="615.0" layoutY="139.0" promptText="username" />
+      <TextField fx:id="passwordfield" layoutX="615.0" layoutY="175.0" promptText="password" />
+      <TextField fx:id="confirmpasswordfield" layoutX="615.0" layoutY="210.0" promptText="ConfirmPassword" />
+      <TextField fx:id="firstnamefield" layoutX="615.0" layoutY="250.0" promptText="Firstname" />
+      <TextField fx:id="lastnamefield" layoutX="615.0" layoutY="284.0" promptText="Lastname" />
+      <TextField fx:id="security_question" layoutX="615.0" layoutY="317.0" promptText="security question" />
+      <TextField fx:id="answerfield" layoutX="615.0" layoutY="352.0" promptText="answer of the security question" />
+      <Button fx:id="backbutton" layoutX="338.0" layoutY="575.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="194.0" style="-fx-background-color: #FFA500;" text="back">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="signupbutton" layoutX="334.0" layoutY="483.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="202.0" style="-fx-background-color: #ADFF2F;" text="sign up">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <TextField fx:id="acount_mode" layoutX="615.0" layoutY="415.0" promptText="acount mode" />
+      <Label layoutX="427.0" layoutY="418.0" prefHeight="18.0" prefWidth="150.0" text="         acount_mode" />
+   </children>
+</AnchorPane>
